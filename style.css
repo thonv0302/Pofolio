@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media (max-width: 585px) {
+   #section4 .margin-bottom {
+       margin-bottom: 16px !important;
+   }
+}
+
+header #menu-right {
+    background-color: #1D809F;
+    width: 15%;
+    z-index: 3;
+    display: none;
+}
+
+
+
+header .list-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1d809f;
+}
+
+header .list-items > li {
+    list-style: none;
+}
+
+header .list-items > li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    font-size: 11px;
+}
+
+header #header-content h5{
+    font-size: 13px;
+}
+
+header .list-items > li a:hover {
+    background-color: #1f7996;
+}
+
+header #header-content{
+    padding-top: 50%;
+    background: url('./resources/images/bg-masthead.jpg') top center / cover no-repeat;
+}
+
+main #section3 {
+    padding-top: 40%;
+    background: url('./resources/images/bg-masthead.jpg') top center / cover no-repeat;
+}
+
+header #header-top {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+header #header-top p {
+    line-height: 40px;
+    text-align: center;
+}
+
+main #header-center h1,
+header #header-center h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+header #header-center h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main #section3 button,
+main #section1 button,
+header #header-center button {
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #1d809f;
+    border: none;
+    text-align: center;
+}
+
+main #section1 h3 {
+    font-size: 24px;
+}
+
+main #section1 p {
+    font-size: 16px;
+}
+
+main .bg-custom-1 {
+    background-color: #1d809f;
+}
+
+#section4 h4,
+#section2 h4 {
+    font-size: 11px;
+    color: #ecb807;
+}
+
+#section4 h2, 
+#section2 h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#section2 h3 {
+    font-size: 16px;
+}
+#section2 p {
+    font-size: 13px;
+}
+
+main #section4 .p-l-r{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer #map {
+    padding-top: 25%;
+    background: url('./resources/images/map.PNG') top center / cover no-repeat;
+}
+
+footer .social-lists-icon {
+    font-size: 48px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    header #header-content {
+        padding-top: 65%;
+    }
+
+    main #section3 {
+        padding-top: 95%;
+    }
+
+    main #section1 h3 {
+        font-size: 36px;
+    }
+
+    footer #map {
+        padding-top: 70%;
+    }
+
+    header #menu-right {
+        width: 30%;
+    }
+}
+
+@media (max-width: 767px) {
+    header #header-content {
+        padding-top: 158%;
+    }
+    main #section3 {
+        padding-top: 150%;
+    }
+
+    main #section1 h3 {
+        font-size: 36px;
+    }
+
+    footer #map {
+        padding-top: 90%;
+    }
+
+    header #menu-right {
+        width: 100%;
+    }
+}
